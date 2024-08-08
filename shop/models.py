@@ -3,6 +3,7 @@ from django.utils import timezone
 
 # Create your models here.
 
+# Создание моделей для БД
 class Category(models.Model):
     title = models.CharField(max_length=255)
     created_at = models.DateTimeField(default=timezone.now)
